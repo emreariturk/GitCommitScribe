@@ -17,8 +17,8 @@
     <PackageOutputPath>./nupkg</PackageOutputPath>
 
     <!-- NuGet Paket Kimliği ve Çift Dilli SEO Açıklaması -->
-    <PackageId>CommitScribe</PackageId>
-    <Description>CommitScribe is a fast, zero-dependency .NET Global CLI tool that automatically generates clean, categorized CHANGELOG.md and release notes from Conventional Commits (feat, fix, perf, refactor, breaking changes) with automatic GitHub PR linking and file prepending. | CommitScribe; Git geçmişinizdeki Conventional Commits mesajlarını analiz ederek kategorize edilmiş, GitHub PR bağlantılı ve okunabilir CHANGELOG.md ile sürüm notlarını (release notes) otomatik üreten hızlı bir .NET Global CLI aracıdır.</Description>
+    <PackageId>GitCommitScribe</PackageId>
+    <Description>GitCommitScribe is a fast, zero-dependency .NET Global CLI tool that automatically generates clean, categorized CHANGELOG.md and release notes from Conventional Commits (feat, fix, perf, refactor, breaking changes) with automatic GitHub PR linking and file prepending. | CommitScribe; Git geçmişinizdeki Conventional Commits mesajlarını analiz ederek kategorize edilmiş, GitHub PR bağlantılı ve okunabilir CHANGELOG.md ile sürüm notlarını (release notes) otomatik üreten hızlı bir .NET Global CLI aracıdır.</Description>
     <PackageTags>git;changelog;conventional-commits;release-notes;cli;dotnet-tool;markdown;versioning;semantic-release;github;automation;surum-notlari;otomatik-changelog</PackageTags>
     <PackageReleaseNotes>Initial release: Conventional Commits parsing, automatic Git tag range detection, GitHub PR auto-linking, and existing CHANGELOG.md prepending.</PackageReleaseNotes>
   </PropertyGroup>
