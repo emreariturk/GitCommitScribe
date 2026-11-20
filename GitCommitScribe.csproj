@@ -6,22 +6,21 @@
     <RollForward>Major</RollForward>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-
+    <!-- .NET Global Tool Ayarları -->
     <PackAsTool>true</PackAsTool>
     <ToolCommandName>scribe</ToolCommandName>
     <PackageOutputPath>./nupkg</PackageOutputPath>
 
-    <!-- NuGet Vitrin Bilgileri -->
+    <!-- .NET Global Tool Ayarları -->
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>scribe</ToolCommandName>
+    <PackageOutputPath>./nupkg</PackageOutputPath>
+
+    <!-- NuGet Paket Kimliği ve Çift Dilli SEO Açıklaması -->
     <PackageId>CommitScribe</PackageId>
-    <Version>1.0.0</Version>
-    <Authors>Emre Arıtürk</Authors>
-    <Description>Generates clean, categorized CHANGELOG.md and release notes from Conventional Commits.</Description>
-    <PackageTags>git;changelog;conventional-commits;cli;dotnet-tool;release-notes</PackageTags>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
-    <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/emreariturk/CommitScribe</RepositoryUrl>
-    
+    <Description>CommitScribe is a fast, zero-dependency .NET Global CLI tool that automatically generates clean, categorized CHANGELOG.md and release notes from Conventional Commits (feat, fix, perf, refactor, breaking changes) with automatic GitHub PR linking and file prepending. | CommitScribe; Git geçmişinizdeki Conventional Commits mesajlarını analiz ederek kategorize edilmiş, GitHub PR bağlantılı ve okunabilir CHANGELOG.md ile sürüm notlarını (release notes) otomatik üreten hızlı bir .NET Global CLI aracıdır.</Description>
+    <PackageTags>git;changelog;conventional-commits;release-notes;cli;dotnet-tool;markdown;versioning;semantic-release;github;automation;surum-notlari;otomatik-changelog</PackageTags>
+    <PackageReleaseNotes>Initial release: Conventional Commits parsing, automatic Git tag range detection, GitHub PR auto-linking, and existing CHANGELOG.md prepending.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
@@ -31,6 +30,6 @@
 
   <ItemGroup>
     <None Include="README.md" Pack="true" PackagePath="\" />
+    <None Include="LICENSE" Pack="true" PackagePath="\" />
   </ItemGroup>
-
 </Project>

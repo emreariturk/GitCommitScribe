@@ -1,0 +1,22 @@
+<Project>
+
+  <PropertyGroup>
+    <!-- Merkezi Sürüm Yönetimi -->
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <!-- Ön sürüm (alpha/beta) çıkacağın zaman alt satırı açabilirsin -->
+    <!-- <VersionSuffix>beta.1</VersionSuffix> -->
+
+    <!-- Ortak Yazar ve Telif Bilgileri -->
+    <Authors>Yunus Emre Arıtürk</Authors>
+    <Company>Yunus Emre Arıtürk</Company>
+    <Copyright>Copyright (c) 2026 Yunus Emre Arıtürk</Copyright>
+
+    <!-- Ortak Repo ve Lisans Bilgileri -->
+    <PackageProjectUrl>https://github.com/emreariturk/GitCommitScribe</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/emreariturk/GitCommitScribe</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+</Project>
